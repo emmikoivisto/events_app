@@ -1,6 +1,7 @@
 <html>
     <head>
         <title> {{ title }} - My Event Planner </title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='stylesheet.css') }}">
     </head>
     <body>
         <nav>
@@ -15,6 +16,6 @@
         {% block content %}
 
         {% endblock %}
-        
+
     </body>
 </html>
